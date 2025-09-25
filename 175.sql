@@ -1,12 +1,4 @@
 /*175. Combine Two Tables
-Solved
-Easy
-Topics
-premium lock icon
-Companies
-SQL Schema
-Pandas Schema
-Table: Person
 
 +-------------+---------+
 | Column Name | Type    |
@@ -67,8 +59,8 @@ Output:
 +-----------+----------+---------------+----------+
 Explanation: 
 There is no address in the address table for the personId = 1 so we return null in their city and state.
-addressId = 1 contains information about the address of personId = 2.*/
-
+addressId = 1 contains information about the address of personId = 2.
+*/
 SELECT firstName, lastName, city, state
 FROM Person
 LEFT JOIN Address
