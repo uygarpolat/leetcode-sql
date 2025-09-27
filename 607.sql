@@ -1,13 +1,6 @@
 /*
 607. Sales Person
-Solved
-Easy
-Topics
-premium lock icon
-Companies
-Hint
-SQL Schema
-Pandas Schema
+
 Table: SalesPerson
 
 +-----------------+---------+
